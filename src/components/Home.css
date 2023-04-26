@@ -1,0 +1,57 @@
+.presentation-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.presentation-text h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.presentation-text p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.presentation-image {
+    height: 100vh;
+    background-image: url('http://www.utez.edu.mx/images/2022/04/fondo_3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px) {
+    .presentation-image {
+        display: none;
+    }
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container .col-4 {
+    margin: 0 10px;
+}
+
+.button-container .btn {
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-container .btn:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: transparent;
+}
+

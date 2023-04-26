@@ -1,0 +1,18 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    margin: 0 auto;
+}
+.form-container > * {
+    display: block; /* o flex */
+    margin-bottom: 10px; /* opcional para agregar un espacio entre los elementos */
+}
+.component-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
